@@ -8,10 +8,11 @@ int main() {
     if(caracter == "char"){
         cout<<sizeof(char)<<endl;
     }
-    /*getline(cin,entero);
+    getline(cin,entero);
     if(entero == "int"){
         cout<<sizeof(int)<<endl;
     }
+    /*
     getline(cin,enterocorto);
     if(enterocorto == "short"){
         cout<<sizeof(short)<<endl;
