@@ -18,7 +18,7 @@ int main() {
     }
     getline(cin,flotante);
     if(flotante == "float"){
-        cout<<sizeof(float)<<endl;
+        cout<<sizeof(int)<<endl;
     }
     getline(cin,doble);
     if(doble == "double"){
