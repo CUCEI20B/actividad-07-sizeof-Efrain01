@@ -3,32 +3,30 @@
 using namespace std;
 
 int main() {
-    string caracter, entero, enterocorto, flotante, doble, largo;
-    getline(cin,caracter);
-    if(caracter == "char"){
+    string str;
+    getline(cin,str);
+    if(str == "char"){
         cout<<sizeof(char)<<endl;
+    }else{
+        if(str == "int"){
+            cout<<sizeof(int)<<endl;
+        }else{
+            if(str == "short"){
+                cout<<sizeof(short)<<endl;
+            }else{
+                if(str == "float"){
+                    cout<<sizeof(float)<<endl;
+                }else{
+                    if(str == "double"){
+                        cout<<sizeof(double)<<endl;
+                    }else{
+                        if(str == "long"){
+                            cout<<sizeof(long)<<endl;
+                        }
+                    }
+                }
+            }
+        }
     }
-    getline(cin,entero);
-    if(entero == "int"){
-        cout<<sizeof(int)<<endl;
-    }
-    /*
-    getline(cin,enterocorto);
-    if(enterocorto == "short"){
-        cout<<sizeof(short)<<endl;
-    }
-    getline(cin,flotante);
-    if(flotante == "float"){
-        cout<<sizeof(float)<<endl;
-    }
-    getline(cin,doble);
-    if(doble == "double"){
-        cout<<sizeof(double)<<endl;
-    }
-    getline(cin,largo);
-    if(largo == "long"){
-        cout<<sizeof(long)<<endl;
-    }
-    */
     return 0;
 }
